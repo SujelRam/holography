@@ -22,3 +22,7 @@
 #container a {
   text-decoration: none;
 }
+#image{
+  width: 50%;
+  height: 50%;
+}

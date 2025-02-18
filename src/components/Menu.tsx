@@ -28,24 +28,6 @@ const appPages: AppPage[] = [
     iosIcon: homeOutline,
     mdIcon: homeSharp
   },
-  {
-    title: 'Favorites',
-    url: '/folder/Favorites',
-    iosIcon: heartOutline,
-    mdIcon: heartSharp
-  },
-  {
-    title: 'Downloads',
-    url: '/folder/Downloads',
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp
-  },
-  {
-    title: 'Trash',
-    url: '/folder/Trash',
-    iosIcon: trashOutline,
-    mdIcon: trashSharp
-  },
 ];
 
 const labels = ['Biology', 'Geography' , 'Zoology', 'Histrocial Artifacts'];
