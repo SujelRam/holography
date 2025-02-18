@@ -26,6 +26,9 @@
             position: relative;
             text-align: center;
             margin-top: -18rem;
+            cursor: pointer;
+          display: inline-block;
+          text-align: center;
         }
         #image {
             width: 90%;
@@ -36,4 +39,4 @@
             margin-top: 10px;
             font-size: 1.5rem;
         }
-
+    
