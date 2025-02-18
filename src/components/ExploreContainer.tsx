@@ -69,20 +69,20 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
           controls
           onClick={handleFullScreen}
         ></video>
-        <h5 id="text3">Atom 3D Holography</h5>
+        <h5 id="text3">DNA holographics</h5>
       </div>
       <div id="d4">
         <video
           id="image3"
           ref={videoRef}
-          src="resources/Atom 3d animation.mp4"
+          src="resources/Human body hologram animation video.mp4"
           loop
           autoPlay
           muted
           controls
           onClick={handleFullScreen}
         ></video>
-        <h5 id="text4">Atom 3D Holography</h5>
+        <h5 id="text4">Anatomic Structures</h5>
       </div>
     </div>
   );
