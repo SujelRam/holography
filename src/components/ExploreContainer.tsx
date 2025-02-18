@@ -62,7 +62,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
         <video
           id="image2"
           ref={videoRef}
-          src="resources/Atom 3d animation.mp4"
+          src="resources/videoplayback.mp4"
           loop
           autoPlay
           muted
