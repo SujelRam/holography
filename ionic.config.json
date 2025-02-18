@@ -1,0 +1,8 @@
+{
+  "name": "Holography",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "ccf10a25"
+}
