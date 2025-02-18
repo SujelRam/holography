@@ -22,12 +22,18 @@
 #container a {
   text-decoration: none;
 }
-#image{
-  width: 90%;
-  height: 50%;
-  margin-top: -9rem;
-  border-radius: 10px;
-}
-#text{
-  margin-left: -0px;
-}
+        #d1 {
+            position: relative;
+            text-align: center;
+            margin-top: -18rem;
+        }
+        #image {
+            width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        #text {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
