@@ -23,6 +23,14 @@
   text-decoration: none;
 }
 #image{
-  width: 50%;
+  width: 90%;
   height: 50%;
+  margin-top: -9rem;
+  border-radius: 10px;
+}
+#text{
+  margin-left: -0px;
+}
+d1{
+  
 }
