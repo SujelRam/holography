@@ -5,8 +5,9 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  max-height: 80vh; /* Set height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
-
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -39,4 +40,56 @@
             margin-top: 10px;
             font-size: 1.5rem;
         }
+        #d2 {
+          position: relative;
+          text-align: center;
+          margin-top: 1rem;
+          cursor: pointer;
+        display: inline-block;
+        text-align: center;
+      }
+      #image1 {
+          width: 90%;
+          height: auto;
+          border-radius: 10px;
+      }
+      #text2 {
+          margin-top: 10px;
+          font-size: 1.5rem;
+      }
+      #d3 {
+        position: relative;
+        text-align: center;
+        margin-top: 1rem;
+        cursor: pointer;
+      display: inline-block;
+      text-align: center;
+    }
+    #image2 {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+    }
+    #text3 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    #d4 {
+      position: relative;
+      text-align: center;
+      margin-top: 1rem;
+      cursor: pointer;
+    display: inline-block;
+    text-align: center;
+  }
+  #image3 {
+      width: 90%;
+      height: auto;
+      border-radius: 10px;
+  }
+  #text4 {
+      margin-top: 10px;
+      font-size: 1.5rem;
+  }
+
     
