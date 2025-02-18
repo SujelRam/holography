@@ -2,7 +2,7 @@ import {
   IonContent,
   IonIcon,
   IonItem,
-
+  IonLabel,
   IonList,
   IonListHeader,
   IonMenu,
@@ -23,16 +23,10 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
-    title: 'Inbox',
+    title: 'Home',
     url: '/folder/Inbox',
     iosIcon: mailOutline,
     mdIcon: mailSharp
-  },
-  {
-    title: 'Outbox',
-    url: '/folder/Outbox',
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp
   },
   {
     title: 'Favorites',
@@ -41,7 +35,7 @@ const appPages: AppPage[] = [
     mdIcon: heartSharp
   },
   {
-    title: 'Archived',
+    title: 'Downloads',
     url: '/folder/Archived',
     iosIcon: archiveOutline,
     mdIcon: archiveSharp
@@ -52,12 +46,6 @@ const appPages: AppPage[] = [
     iosIcon: trashOutline,
     mdIcon: trashSharp
   },
-  {
-    title: 'Spam',
-    url: '/folder/Spam',
-    iosIcon: warningOutline,
-    mdIcon: warningSharp
-  }
 ];
 
 const labels = ['Biology', 'Zoology', 'Histrocial Artifacts'];
@@ -69,8 +57,8 @@ const Menu: React.FC = () => {
     <IonMenu contentId="main" type="overlay">
       <IonContent>
         <IonList id="inbox-list">
-          <IonListHeader>Inbox</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
+          <IonListHeader>Virtual</IonListHeader>
+          <IonNote>Holographic</IonNote>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
@@ -84,7 +72,7 @@ const Menu: React.FC = () => {
         </IonList>
 
         <IonList id="labels-list">
-          <IonListHeader>Labels</IonListHeader>
+          <IonListHeader>Category</IonListHeader>
           {labels.map((label, index) => (
             <IonItem lines="none" key={index}>
               <IonIcon aria-hidden="true" slot="start" icon={bookmarkOutline} />
