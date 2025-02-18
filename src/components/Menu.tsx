@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
+import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, homeOutline, homeSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -24,9 +24,9 @@ interface AppPage {
 const appPages: AppPage[] = [
   {
     title: 'Home',
-    url: '/folder/Inbox',
-    iosIcon: mailOutline,
-    mdIcon: mailSharp
+    url: '/folder/Home',
+    iosIcon: homeOutline,
+    mdIcon: homeSharp
   },
   {
     title: 'Favorites',
@@ -36,7 +36,7 @@ const appPages: AppPage[] = [
   },
   {
     title: 'Downloads',
-    url: '/folder/Archived',
+    url: '/folder/Downloads',
     iosIcon: archiveOutline,
     mdIcon: archiveSharp
   },
@@ -48,7 +48,7 @@ const appPages: AppPage[] = [
   },
 ];
 
-const labels = ['Biology', 'Zoology', 'Histrocial Artifacts'];
+const labels = ['Biology', 'Geography' , 'Zoology', 'Histrocial Artifacts'];
 
 const Menu: React.FC = () => {
   const location = useLocation();
