@@ -2,7 +2,7 @@ import {
   IonContent,
   IonIcon,
   IonItem,
-  IonLabel,
+
   IonList,
   IonListHeader,
   IonMenu,
@@ -60,7 +60,7 @@ const appPages: AppPage[] = [
   }
 ];
 
-const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+const labels = ['Biology', 'Zoology', 'Histrocial Artifacts'];
 
 const Menu: React.FC = () => {
   const location = useLocation();
