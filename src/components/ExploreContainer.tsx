@@ -8,11 +8,7 @@ interface ContainerProps {
 }
 function Toolbar() {
   return (
-    <IonHeader>
-      <IonToolbar>
         <IonSearchbar></IonSearchbar>
-      </IonToolbar>
-    </IonHeader>
   );
 }
 
@@ -34,10 +30,11 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   };
   return (
     <div id="container">
+        <div id="bar">
+         {/* Calling the Toolbar component here */}
+          <Toolbar />
+        </div>
       <div id="d1">
-        {/* Calling the Toolbar component here */}
-         <Toolbar />
-
         <video
           id="image"
           ref={videoRef}

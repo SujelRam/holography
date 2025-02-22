@@ -29,10 +29,22 @@ const appPages: AppPage[] = [
     mdIcon: homeSharp
   },
   {
+    title: 'Favorite',
+    url: '/folder/Favorite',
+    iosIcon: heartOutline,
+    mdIcon: heartSharp
+  },
+  {
     title: 'Downloads',
     url: '/folder/Downloads',
     iosIcon: downloadOutline,
     mdIcon: downloadSharp
+  },
+  {
+    title: 'Trash',
+    url: '/folder/trash',
+    iosIcon: trashOutline,
+    mdIcon: trashSharp
   },
 ];
 
