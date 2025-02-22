@@ -6,12 +6,9 @@ import { IonHeader, IonSearchbar, IonTitle, IonToolbar } from '@ionic/react';
 interface ContainerProps {
   name: string;
 }
-function Example() {
+function Toolbar() {
   return (
     <IonHeader>
-      <IonToolbar>
-        <IonTitle>Toolbar</IonTitle>
-      </IonToolbar>
       <IonToolbar>
         <IonSearchbar></IonSearchbar>
       </IonToolbar>
@@ -38,6 +35,9 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
   return (
     <div id="container">
       <div id="d1">
+        {/* Calling the Toolbar component here */}
+         <Toolbar />
+
         <video
           id="image"
           ref={videoRef}
